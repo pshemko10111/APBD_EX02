@@ -5,7 +5,7 @@ namespace LegacyAppTests;
 public class UserServiceTests
 {
     //Arrange
-    private var service = new UserService();
+    private UserService service = new UserService();
 
     [Fact]
     public void AddUser_Should_Return_False_When_Missing_FirstName()
